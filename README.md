@@ -18,4 +18,4 @@ example : from VG-machine |---LV-root 500gb ext4
 
               |---LV-swap 16gb
 to VG-machine |---LV-root 30gb ext4
-
+              |---LV-data 470gb xfs
