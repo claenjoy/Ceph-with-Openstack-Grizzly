@@ -16,6 +16,6 @@ if you have single disk , reccomend to separate OS from the data so use the LVM 
                           |---LV-swap 16 gb
 example : from VG-machine |---LV-root 500gb ext4
 
-                  |---LV-swap 16gb
+              |---LV-swap 16gb
 to VG-machine |---LV-root 30gb ext4
 
