@@ -11,7 +11,7 @@ Guide-temp
 
 multi-node Openstack grizzly , ubuntu 12.04 64bit
 
-if you have single disk , reccomend to separate OS from the data so use the LVM tool .
+if you have single disk , recommend to separate OS from the data so use the LVM tool .
  
 example from:
 
