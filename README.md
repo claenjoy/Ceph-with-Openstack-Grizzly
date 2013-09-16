@@ -11,16 +11,16 @@ Guide-temp
 
 multi-node Openstack grizzly , ubuntu 12.04 64bit
 
-if you have single disk , recommend to separate OS from the data so use the LVM tool .
+if you have single disk , recommend to separate OS from the data .
  
 example from:
 
-                  |---LV-swap 16gb
-    VG-machine--->|---LV-root 500gb ext4
+                  |sda1 /boot
+    VG-machine--->|sda2 / LV-root 500gb ext4
         
 to 
 
-                  |---LV-swap 16gb 
-    VG-machine--->|---LV-root 30gb ext4
-                  |---LV-data 470gb xfs
+                  |sda1 /boot
+    VG-machine--->|sda2 LV-root 30gb ext4
+                  |sdb /data 470gb xfs
 
